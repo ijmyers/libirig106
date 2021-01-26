@@ -15,7 +15,7 @@
 
 /* Macros and definitions */
 
-#define MAX_HANDLES         100
+#define MAX_HANDLES         100000
 
 #define IRIG106_SYNC        0xEB25
 #define HEADER_SIZE         24

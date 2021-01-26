@@ -177,9 +177,9 @@ I106Status I106C10Close(int handle){
     if ((status = ValidHandle(handle)))
         return status;
 
-    // Close file if open
+/*    // Close file if open
     if ((handles[handle].File != -1) && (handles[handle].InUse == 1))
-        close(handles[handle].File);
+        close(handles[handle].File);*/
 
     if ((handles[handle].fp != NULL) && (handles[handle].InUse == 1))
         fclose(handles[handle].fp);
